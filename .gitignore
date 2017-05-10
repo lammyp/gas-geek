@@ -1,0 +1,7 @@
+*.pyc
+*.~
+__pycache__
+gasenv
+db.sqlite3
+/static
+

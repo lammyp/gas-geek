@@ -8,6 +8,10 @@
 
   <body>
      <h1>Well, this is a start.</h1>
+	{% for article in articles %}
+		<h2>The article is: {{article}}.</h2>
+        {% endfor %}
+     <p>{{articles}}</p>
   </body>
 
 </html>
